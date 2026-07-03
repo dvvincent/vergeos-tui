@@ -115,7 +115,10 @@ detail path).
 ## Roadmap
 
 - Snapshots tab + snapshot create/restore
-- Network/tenant detail views and actions
+- Network/tenant actions (not just detail views)
 - Profile switcher (`vrg -p <profile>`) for multi-cloud
-- Per-cell status coloring (green running / red stopped)
-- Search / filter within a tab
+- Responsive column widths on narrow terminals
+
+## License
+
+MIT — see [LICENSE](LICENSE).
