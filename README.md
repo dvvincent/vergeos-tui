@@ -35,7 +35,13 @@ search uses the **`textinput`** bubble (`examples/textinput`).
 
 ## Requirements
 
-- `vrg` installed and configured (`vrg system info` should succeed)
+> **`vrg` must be installed and already configured — this is a hard
+> prerequisite.** The TUI has no VergeOS endpoint, credentials, or config of
+> its own; it shells out to `vrg` for every operation and inherits whatever
+> profile `vrg` is pointed at. **Acceptance test:** if `vrg system info`
+> returns your cloud, the TUI works — if it errors, fix `vrg` first.
+
+- [`vrg`](https://docs.verge.io) installed and configured (verify with `vrg system info`)
 - Go 1.24+ to build
 
 ## Build & run
